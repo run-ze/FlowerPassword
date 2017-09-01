@@ -1,0 +1,14 @@
+<!--settings.wxml-->
+<view class="container zan-form">
+  <view class='zan-form__input'>
+    <text>设置记忆密码</text>
+    <input password='true' bindblur='passwordCheck' bindconfirm='passwordCheck' placeholder='记忆密码' placeholder-style="color: lightgrey; font-size: 1rem;"></input>
+    <view class='show-password'>
+      <text>显示密码</text>
+      <switch checked='true' bindchange='changePasswordShow'></switch>
+    </view>
+  </view>
+  <view class='save'>
+    <button class='save-settings zan-btn zan-btn--primary zan-btn--large' bindtap='saveSettings'>保存</button>
+  </view>
+</view>

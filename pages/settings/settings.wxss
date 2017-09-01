@@ -1,0 +1,49 @@
+/* pages/settings/settings.wxss */
+@import "../../libs/zanui-weapp/index.wxss";
+
+page{
+  height:100%;
+}
+
+.container {
+  padding-top: 0;
+}
+
+.container text{
+  display: inline-block;
+}
+
+.zan-form {
+  border: none;
+  height:100%;
+}
+
+.zan-form__input {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding-top: 100rpx;
+}
+.show-password{
+  display: flex;
+  padding-top: 100rpx;
+  flex-direction: row;
+}
+.zan-form__input input {
+  margin-top: 20rpx;
+  border: 1rpx solid lightgrey;
+  /* background-color: lightgrey; */
+}
+.show-password text{
+  flex-grow: 1;
+}
+switch{
+  align-self: flex-end;
+}
+
+view.save{
+  width:80%;
+}
+.save-settings{
+  bottom: 0;
+}
